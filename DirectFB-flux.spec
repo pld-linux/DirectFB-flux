@@ -9,9 +9,10 @@ Group:		Development/Tools
 Source0:	http://www.directfb.org/downloads/Core/flux/flux-%{version}.tar.gz
 # Source0-md5:	25b3d11628d907019e1b7e7d1fb09ad7
 URL:		http://www.directfb.org/
-BuildRequires:	DirectFB-devel
+BuildRequires:	DirectFB-devel >= 1:1.4.15
 BuildRequires:	libstdc++-devel
 BuildRequires:	pkgconfig
+Requires:	DirectFB >= 1:1.4.15
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
