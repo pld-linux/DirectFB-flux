@@ -2,17 +2,17 @@
 Summary:	flux - interface description language used by DirectFB
 Summary(pl.UTF-8):	flux - język opisu interfejsów używany przez DirectFB
 Name:		DirectFB-flux
-Version:	1.3.0
+Version:	1.4.1
 Release:	1
 License:	MIT
 Group:		Development/Tools
 Source0:	http://www.directfb.org/downloads/Core/flux/flux-%{version}.tar.gz
-# Source0-md5:	c3e7bb505433b056a4117b1be7c96baa
+# Source0-md5:	5ff9fe9043094301fe865549ba35e2e8
 URL:		http://www.directfb.org/
-BuildRequires:	DirectFB-devel >= 1:1.4.17
+BuildRequires:	DirectFB-devel >= 1:1.6.0
 BuildRequires:	libstdc++-devel
 BuildRequires:	pkgconfig
-Requires:	DirectFB >= 1:1.4.17
+Requires:	DirectFB >= 1:1.6.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
